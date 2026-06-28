@@ -1,4 +1,4 @@
-# SPIFFY — STEM For All
+# SPIFFY — STEAM For All
 
 Marketing site for **SPIFFY** (_STEM Pays It Forward For the Youth_), a hands-on
 club that turns complex STEM ideas into interactive projects for young builders.

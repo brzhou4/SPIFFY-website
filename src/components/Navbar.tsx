@@ -53,7 +53,7 @@ export default function Navbar() {
                 overHero ? "text-blue-700" : "text-spiffy-navy"
               )}
             >
-              STEM For All
+              STEAM For All
             </span>
           </span>
         </a>

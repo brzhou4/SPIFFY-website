@@ -11,7 +11,7 @@ export default function Footer() {
             />
             <div>
               <p className="font-display text-xl font-700">SPIFFY</p>
-              <p className="text-sm text-spiffy-ink/60">STEM For All</p>
+              <p className="text-sm text-spiffy-ink/60">STEAM For All</p>
             </div>
           </div>
 
