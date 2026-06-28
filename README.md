@@ -1,7 +1,7 @@
 # SPIFFY — STEAM For All
 
-Marketing site for **SPIFFY** (_STEM Pays It Forward For the Youth_), a hands-on
-club that turns complex STEM ideas into interactive projects for young builders.
+Marketing site for **SPIFFY** (_STEAM Pays It Forward For the Youth_), a hands-on
+club that turns complex STEAM ideas into interactive projects for young builders.
 
 A smooth-scroll, single-page experience: an interactive WebGL hero, scroll-driven
 photo galleries, the three signature workshops, animated impact stats, and a

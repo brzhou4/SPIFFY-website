@@ -55,7 +55,7 @@ export default function Hero() {
           className="mx-auto mb-8 inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/70 px-4 py-1.5 text-xs font-700 uppercase tracking-[0.22em] text-spiffy-ink/70 backdrop-blur"
         >
           <Sparkles className="h-3.5 w-3.5 text-blue-600" />
-          STEM Pays It Forward
+          STEAM Pays It Forward
         </motion.div>
 
         <h1 className="font-display text-[20vw] font-700 leading-[0.82] tracking-tight sm:text-[16vw] md:text-[13rem]">
@@ -86,7 +86,7 @@ export default function Hero() {
           transition={{ delay: 1, duration: 0.8 }}
           className="mx-auto mt-6 max-w-2xl text-balance text-lg font-500 text-spiffy-ink/75 sm:text-xl md:text-2xl"
         >
-          STEM pays it forward for the youth — turning big, complex ideas into
+          STEAM pays it forward for the youth — turning big, complex ideas into
           hands-on projects the next generation can build with their own hands.
         </motion.p>
 

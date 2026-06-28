@@ -39,7 +39,7 @@ const WAYS = [
   {
     icon: HandHeart,
     title: "Volunteer or mentor",
-    body: "Love STEM? Spend an afternoon helping young builders test bridges, pitch startups, and reflect on what they learned.",
+    body: "Love STEAM? Spend an afternoon helping young builders test bridges, pitch startups, and reflect on what they learned.",
   },
   {
     icon: Sparkles,
@@ -61,7 +61,7 @@ export default function GetInvolved() {
             </Reveal>
             <Reveal delay={0.05}>
               <h2 className="mt-5 max-w-4xl font-display text-4xl font-700 leading-[1.05] tracking-tight sm:text-6xl">
-                Help us hand STEM to the
+                Help us hand STEAM to the
                 <span className="text-gradient-anim animate-gradient-pan">
                   {" "}
                   next generation.
@@ -71,7 +71,7 @@ export default function GetInvolved() {
             <Reveal delay={0.1}>
               <p className="mt-6 max-w-2xl text-lg text-white/70">
                 Whether you teach, build, or believe — there's a place for you in
-                the SPIFFY movement. STEM pays it forward, and it starts with
+                the SPIFFY movement. STEAM pays it forward, and it starts with
                 people like you.
               </p>
             </Reveal>

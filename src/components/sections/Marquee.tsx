@@ -1,5 +1,5 @@
 const WORDS = [
-  "STEM PAYS IT FORWARD",
+  "STEAM PAYS IT FORWARD",
   "BUILD",
   "DESIGN",
   "INNOVATE",

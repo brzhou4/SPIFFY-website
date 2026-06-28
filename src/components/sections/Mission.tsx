@@ -20,7 +20,7 @@ const PILLARS = [
   {
     icon: Rocket,
     title: "The Next Generation",
-    body: "We exist to inspire the next generation of innovators and thinkers in STEM — and to pay that knowledge forward.",
+    body: "We exist to inspire the next generation of innovators and thinkers in STEAM — and to pay that knowledge forward.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Mission() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-spiffy-ink/70">
-                SPIFFY — <strong className="text-spiffy-ink">STEM Pays It
+                SPIFFY — <strong className="text-spiffy-ink">STEAM Pays It
                 Forward For the Youth</strong> — is a hands-on club built on a
                 simple belief: the best way to learn how the world works is to
                 build a small piece of it yourself. From popsicle-stick bridges

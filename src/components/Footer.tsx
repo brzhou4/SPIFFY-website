@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-black/10 pt-6 text-xs text-spiffy-ink/50 sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} SPIFFY · STEM Pays It Forward For the Youth.</p>
+          <p>© {new Date().getFullYear()} SPIFFY · STEAM Pays It Forward For the Youth.</p>
           <p className="font-display font-600 uppercase tracking-[0.2em]">
             Build · Design · Innovate
           </p>

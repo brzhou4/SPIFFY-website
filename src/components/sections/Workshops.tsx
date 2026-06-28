@@ -57,7 +57,7 @@ export default function Workshops() {
           </Reveal>
           <Reveal delay={0.05}>
             <h2 className="mt-5 font-display text-4xl font-700 leading-[1.05] tracking-tight sm:text-6xl">
-              Three ways we put STEM
+              Three ways we put STEAM
               <span className="text-gradient"> in their hands.</span>
             </h2>
           </Reveal>
