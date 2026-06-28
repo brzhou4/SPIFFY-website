@@ -20,7 +20,7 @@ const WORKSHOPS: Workshop[] = [
     tagline: "Beams, arches, trusses & one very dramatic weight test.",
     body: "Students meet the four great bridge families — beam, arch, suspension, and truss — then race to build the strongest span from nothing but popsicle sticks and glue. Along the way they discover why a triangle never buckles and a rectangle always needs help.",
     steps: ["Design", "Build", "Test to failure", "Reflect"],
-    image: PHOTOS[7],
+    image: PHOTOS[115], // popsicle-stick bridge build in progress
     accent: "from-spiffy-blue to-spiffy-navy",
   },
   {

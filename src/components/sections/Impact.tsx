@@ -4,9 +4,9 @@ import { PHOTOS } from "@/lib/photos";
 import Reveal from "@/components/Reveal";
 
 const STATS = [
-  { value: 3, suffix: "", label: "Signature workshops" },
-  { value: 200, prefix: "$", suffix: "", label: "SPIFFY Bucks per startup team" },
-  { value: 100, suffix: "%", label: "Hands-on, zero lectures" },
+  { value: 3, suffix: "", label: "Syllabi developed" },
+  { value: 5, suffix: "+", label: "Community partners" },
+  { value: 400, suffix: "+", label: "Students impacted" },
   { value: 1, suffix: "", label: "Mission: pay it forward", isText: "∞" },
 ];
 
@@ -77,7 +77,6 @@ export default function Impact() {
                 <div className="font-display text-5xl font-700 tracking-tight sm:text-6xl">
                   <Counter
                     value={s.value}
-                    prefix={s.prefix}
                     suffix={s.suffix}
                     isText={s.isText}
                   />
