@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 6% 5%;
+    --primary: 353 78% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 270 68% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 42%;
+    --accent: 270 68% 50%;
+    --accent-foreground: 0 0% 100%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 353 78% 50%;
+    --radius: 1rem;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    scroll-behavior: auto; /* Lenis handles smoothing */
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: #2563eb;
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+  }
+
+  .text-gradient {
+    background: linear-gradient(100deg, #3b82f6 0%, #2563eb 55%, #0a1f44 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-gradient-anim {
+    background: linear-gradient(
+      100deg,
+      #3b82f6 0%,
+      #2563eb 35%,
+      #0a1f44 50%,
+      #2563eb 65%,
+      #3b82f6 100%
+    );
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Blue/black wordmark for the logo-matched hero */
+  .text-gradient-blue {
+    background: linear-gradient(105deg, #1d4ed8 0%, #1e3a8a 45%, #0a1f44 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-gradient-blue-anim {
+    background: linear-gradient(
+      105deg,
+      #3b82f6 0%,
+      #1d4ed8 30%,
+      #0a1f44 50%,
+      #1d4ed8 70%,
+      #3b82f6 100%
+    );
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-grid-faint {
+    background-image: linear-gradient(
+        to right,
+        rgba(10, 10, 11, 0.05) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, rgba(10, 10, 11, 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  /* Shown when WebGL is unavailable — a static echo of the grid shader. */
+  .shader-fallback {
+    background-image: linear-gradient(
+        to right,
+        rgba(29, 78, 216, 0.14) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, rgba(30, 58, 138, 0.14) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+
+  .mask-fade-y {
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      transparent,
+      black 12%,
+      black 88%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      transparent,
+      black 12%,
+      black 88%,
+      transparent
+    );
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#3b82f6, #1e3a8a);
+  border-radius: 999px;
+  border: 2px solid #fff;
+}
